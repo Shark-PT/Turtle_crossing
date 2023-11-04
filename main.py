@@ -14,7 +14,7 @@ car = CarManager()
 
 screen.listen()
 screen.onkeypress(player.go_up, "Up")
-screen.onkeypress(player.go_down, "Down")
+
 
 game_is_on = True
 while game_is_on:
